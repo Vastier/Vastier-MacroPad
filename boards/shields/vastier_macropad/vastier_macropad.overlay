@@ -26,7 +26,6 @@
 
     kscan0: kscan {
         compatible = "zmk,kscan-gpio-matrix";
-        label = "KSCAN";
         diode-direction = "col2row";
 
         // Rows are read (input with pull-down)
@@ -56,7 +55,6 @@
 
     encoder1: encoder_1 {
         compatible = "alps,ec11";
-        label = "ENCODER_1";
         a-gpios = <&gpio0 9  (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;  /* D10 P0.09 */
         b-gpios = <&gpio0 10 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;  /* D16 P0.10 */
         steps = <80>;
@@ -65,7 +63,6 @@
 
     encoder2: encoder_2 {
         compatible = "alps,ec11";
-        label = "ENCODER_2";
         a-gpios = <&gpio1 11 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;  /* D14 P1.11 */
         b-gpios = <&gpio1 13 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;  /* D15 P1.13 */
         steps = <80>;

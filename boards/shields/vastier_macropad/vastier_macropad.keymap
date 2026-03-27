@@ -7,7 +7,6 @@
         compatible = "zmk,keymap";
 
         default_layer {
-            label = "Default";
 
             // Row 1: Keys 1-5
             // Row 2: Keys 6-10
