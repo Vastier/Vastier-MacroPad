@@ -1,0 +1,15 @@
+if SHIELD_VASTIER_MACROPAD
+
+config ZMK_KEYBOARD_NAME
+    default "Vastier-MacroPad"
+
+config ZMK_SPLIT
+    default n
+
+config EC11
+    default y
+
+config EC11_TRIGGER_GLOBAL_THREAD
+    default y
+
+endif
