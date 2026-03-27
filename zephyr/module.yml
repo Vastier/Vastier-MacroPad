@@ -1,3 +1,5 @@
+name: zmk-keyboard-vastier-macropad
+
 build:
   settings:
     board_root: .
