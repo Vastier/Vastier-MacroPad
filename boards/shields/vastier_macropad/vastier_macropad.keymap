@@ -27,10 +27,10 @@
                 &kp H       &kp I       &kp J       &kp K
             >;
 
-            // Encoder 1: Volume  |  Encoder 2: Track skip
+            // Encoder 1: Track skip  |  Encoder 2: Volume
             sensor-bindings = <
-                &inc_dec_kp C_VOL_UP C_VOL_DN
                 &inc_dec_kp C_NEXT C_PREV
+                &inc_dec_kp C_VOL_UP C_VOL_DN
             >;
         };
     };
