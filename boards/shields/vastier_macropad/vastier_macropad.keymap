@@ -2,7 +2,6 @@
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/bt.h>
 
-#define ZMK_KEYMAP_LAYERS_RETAIN_COUNT 1
 
 / {
     keymap {
